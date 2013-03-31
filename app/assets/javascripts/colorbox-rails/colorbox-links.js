@@ -28,7 +28,7 @@ $(document).ready(function() {
                 title: $(this).data("colorbox-title") || false,
                 className: $(this).data("colorbox-class-name") || false,
                 href: $(this).attr('href'),
-                opacity: 0.5
+                opacity: 0.2
             });
     });
 
@@ -45,7 +45,7 @@ $(document).ready(function() {
                 title: function() { return $(this).data("colorbox-title") || false },
                 className: function() { return $(this).data("colorbox-class-name") || false },
                 href: function() { return $(this).attr('href') },
-                opacity: 0.5
+                opacity: 0.2
             });
 });
 
